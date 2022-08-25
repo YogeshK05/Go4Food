@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: poppins,Arial,sans-serif;
+}
+.team-section{
+
+	overflow: hidden;
+	text-align:center;
+	/*background:#fbceb1;*/
+	/*background:url(../bg3.jpg) no-repeat center;*/
+    /*background-size:cover;*/
+	padding: 60px;
+}
+.logo img{
+	float: center;
+	width:150px;
+	height:auto;
+	margin-top:10px;
+}
+
+.team-section h1{
+	font-family:poppins;
+	text-transform: uppercase;
+	margin-bottom: 160px;
+	color:black;
+	font-size: 40px;
+	
+}
+.border{
+	display:block;
+	margin:auto;
+	width:60px;
+	height:3px;
+	background: black;
+	margin-bottom:40px;
+
+}
+.ps{
+	margin-bottom:40px;
+}
+.ps a{
+	display:inline-block;
+	margin: 0 30px;
+	width:160px;
+	height:160px;
+	overflow:hidden;
+	border-radius:50%;
+}
+.ps a img{
+	width:100%;
+	filter:grayscale(80%);
+	transition:0.45s all;
+}
+
+.ps a:hover > img{
+	filter:none;
+}
+.section{
+	width:600px;
+	margin:auto;
+	
+	font-size:20px;
+	color: black;
+	text-align:justify;
+	height:0px;
+	overflow:hidden;
+	
+
+}
+.section:target{
+	height:auto;
+
+}
+
+.name{
+	display:block;
+	margin-bottom:30px;
+	text-align:center;
+	font-size:22px;
+	font-family: arial;
+}
+
+.team-section h4{
+	color:black;
+    padding:50px;
+}
+
